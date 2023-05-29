@@ -1,5 +1,5 @@
 body {
-    background-color: #ff00f23a;
+    background-image: url(../public/images/background-main.png);
 }
 
 header {
@@ -8,12 +8,12 @@ header {
     justify-content: center;
     margin: 0px;
     border-radius: 40px;
-    background-color: #8a2be2;
+    background-image: linear-gradient(#7a307063,#a329c24b), url(../public/images/background-head.png);
 }
 
 h1 {
     margin: 0px;
-    color: #fff;
+    color: #00ff9d;
     font-family: 'Sofia';
     font-size: 50px;
 }
@@ -54,6 +54,12 @@ h3 {
 
 footer {
     margin-top: 30px;
+}
+
+footer h2 {
+    font-family: 'Sofia';
+    text-align: center;
+    color: #00ffff;
 }
 
 footer div {
