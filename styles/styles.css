@@ -8,7 +8,7 @@ header {
     justify-content: center;
     margin: 0px;
     border-radius: 40px;
-    background-color: blueviolet;
+    background-color: #8a2be2;
 }
 
 h1 {
@@ -50,4 +50,31 @@ h3 {
     background-color: #ff004c7a;
     border-style: dotted;
     padding: 0px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    border-top: 5px dotted #8a2be2;
+    border-bottom: 5px dotted #8a2be2;
+}
+
+table th {
+    width: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    font-family: 'Sofia';
+    color: #ff00bf;
+}
+
+table tr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
